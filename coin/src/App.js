@@ -2,8 +2,13 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import './App.css';
 import Coin from "./components/coin";
+import Particles from "./particles.js";
+
 
 function App() {
+ 
+  
+ 
 
   const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState("");
@@ -30,6 +35,7 @@ function App() {
 
   return (
     <div>
+        <Particles/>
       <div className="header">
       <h1 className="brand">
           <i className="fas fa-balance-scale-left"></i> CoinRate
@@ -59,6 +65,8 @@ function App() {
           );
         })}
       </div>
+
+      
      
     </div>
   );
