@@ -4,6 +4,6 @@ import ParticleConfig from "./config/particle-config.js";
 
 export default function particles() {
     return (
-        <Particles params={ParticleConfig}></Particles>
+        <Particles className="full" params={ParticleConfig}></Particles>
     );
 }

@@ -34,8 +34,25 @@ function App() {
 
 
   return (
-    <div>
+    <div className="back">
         <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+        <Particles/>
+      <div className="red">  
       <div className="header">
       <h1 className="brand">
           <i className="fas fa-balance-scale-left"></i> CoinRate
@@ -66,7 +83,7 @@ function App() {
         })}
       </div>
 
-      
+      </div>
      
     </div>
   );
